@@ -1,7 +1,7 @@
 # My C Library
 
 My C Library is a Python package that allows you to execute C code from within Python. It uses a C extension to provide fast execution of C code, making it suitable for performance-critical applications.
-
+Url code: https://github.com/hqmdokkai/c-on-py.git
 ## Features
 
 - Execute arbitrary C code from Python.
@@ -13,12 +13,12 @@ My C Library is a Python package that allows you to execute C code from within P
 You can install the package using pip:
 
 ```bash
-pip install c_on_py
+pip install c-on-py
 ```
 Usage
 Here's a quick example of how to use the library:
 ```bash
-import c_on_py
+import c-on-py
 
 #Execute C code to print the sum of 5 and 1
-c_on_py.c("printf(\"%d\\n\", 5 + 1);")
+c-on-py.c("printf(\"%d\\n\", 5 + 1);")
