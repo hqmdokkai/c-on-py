@@ -48,16 +48,16 @@ static PyMethodDef COnPyMethods[] = {
     {NULL, NULL, 0, NULL}
 };
 
-// Định nghĩa module với tên `c_on_py`
+// Định nghĩa module với tên `cpylib`
 static struct PyModuleDef conpy_module = {
     PyModuleDef_HEAD_INIT,
-    "c_on_py",  // Tên module
-    NULL,       // Mô tả module
-    -1,         // Kích thước module
+    "cpylib",  // Tên module
+    NULL,      // Mô tả module
+    -1,        // Kích thước module
     COnPyMethods
 };
 
 // Khởi tạo module
-PyMODINIT_FUNC PyInit_c_on_py(void) {
+PyMODINIT_FUNC PyInit_cpylib(void) {
     return PyModule_Create(&conpy_module);
 }
