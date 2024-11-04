@@ -14,11 +14,11 @@ You can install the package using pip:
 
 ```bash
 pip install c_on_py
+```
 Usage
 Here's a quick example of how to use the library:
-```
 import c_on_py
 
-# Execute C code to print the sum of 5 and 1
+#Execute C code to print the sum of 5 and 1
 my_c_library.c("printf(\"%d\\n\", 5 + 1);")
 Development
