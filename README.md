@@ -13,12 +13,12 @@ Url code: https://github.com/hqmdokkai/c-on-py.git
 You can install the package using pip:
 
 ```bash
-pip install c-on-py
+pip install cpylib
 ```
 Usage
 Here's a quick example of how to use the library:
 ```bash
-import c-on-py
+import cpylib
 
 #Execute C code to print the sum of 5 and 1
-c-on-py.c("printf(\"%d\\n\", 5 + 1);")
+cpylib.c("printf(\"%d\\n\", 5 + 1);")
