@@ -17,7 +17,8 @@ pip install c_on_py
 ```
 Usage
 Here's a quick example of how to use the library:
+```bash
 import c_on_py
 
-#Execute C code to print the sum of 5 and 1 /n
+#Execute C code to print the sum of 5 and 1
 c_on_py.c("printf(\"%d\\n\", 5 + 1);")
